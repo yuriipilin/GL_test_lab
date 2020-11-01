@@ -25,8 +25,12 @@ driver.get(start_url)
 wait = ui.WebDriverWait(driver, 30)
 
 
+if len(sys.argv) < 3 :
+    print("Usage: script scanName sshUserName ")
+    sys.exit()
 def login():
     try:
+
     #time.sleep(4)
         login_username = wait.until(expected_conditions.visibility_of_element_located((By.XPATH, "/html/body/div[1]/form/div[1]/input" )))
         login_pass = driver.find_element_by_xpath('/html/body/div[1]/form/div[2]/input')
