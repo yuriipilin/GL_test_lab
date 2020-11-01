@@ -7,7 +7,7 @@
 - [x] process the report from nessus with python to create ansible playbook (***see notes below***)
 - [x] Run python script for creation ansible playbook template and than ansible with Jenkins to update Vulnerabilities
 
-##List of hosts involved
+# List of hosts involved in:
 1. jobserv (35.228.75.189) - Jenkins
 2. vpnserv (35.228.5.226)  - Nessus scanner
 3. webserver-centos (35.228.32.105) - mysql master 
