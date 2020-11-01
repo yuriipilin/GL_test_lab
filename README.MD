@@ -22,7 +22,7 @@
 * jinjaTemplates a folder for template patterns nedded to jinja framework
 * scanned.csv - report provided by Nessus scanner
 * terraform a folder contains Terraform config file to create some VM's
-* runNessus folder contains an attempt to run nessus scan with python sekenium webdriver
+* runNessus folder contains an attempt to run nessus scan with python selenium webdriver
 
 # Notes:
 The firts difficulty was that i haven't managed to run Nessus scanner with CLI(unable),API(unable) and selenium also(unable?)<br>
