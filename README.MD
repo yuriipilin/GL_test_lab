@@ -22,10 +22,11 @@
 * jinjaTemplates a folder for template patterns nedded to jinja framework
 * scanned.csv - report provided by Nessus scanner
 * terraform a folder contains Terraform config file to create some VM's
+* runNessus folder contains an attempt to run nessus scan with python sekenium webdriver
 
 # Notes:
 The firts difficulty was that i haven't managed to run Nessus scanner with CLI(unable),API(unable) and selenium also(unable?)<br>
-I just couldn't take any element by using all ways i had(className, Xpath, CSSselector, elements also has no IDs)
-Python script is pretty dummy. It's just hardcoding the package with vulnerability to create jinja2 pattern.<br>
+I just couldn't upload an ssh key for the new scan
+create_pattern_ansible script is pretty dummy. It's just hardcoding the package name with vulnerability to create jinja2 pattern.<br>
 I havent figured out ho to make it uniq in ONE ansible playbook pattern. Due to luck of time I belive) <br>
 To login to Google Cloud host please find the login info inside the answer to technical task email
