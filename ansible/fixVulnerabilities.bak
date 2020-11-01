@@ -1,0 +1,11 @@
+- name: Fix CVE-2020-15999
+  hosts: all  
+  become: yes
+  tasks: 
+  - name: Fix CVE-2020-15999
+    apt:
+      name: libfreetype6
+      state: latest
+      update_cache: true
+    when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+

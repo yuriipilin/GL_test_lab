@@ -1,0 +1,12 @@
+- name: Fix {{name}}
+  hosts: all  
+  become: yes
+  tasks: 
+  - name: Fix {{name}}
+    apt:
+      name: {{package}}
+      state: latest
+      update_cache: true
+    when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+
+
