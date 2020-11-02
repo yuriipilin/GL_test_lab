@@ -88,5 +88,6 @@ It creates 2 VM instances in your Google Cloud account with pre-installed and ru
 
 ## TODO
 [X] Complete  run_Nessus_selenium.py script to run Nessus scan with python-selenium and chrome-headless<br> It still can't add ssh key to new scan <br>
-[X] python3 crerate_pattern_ansible.py script have to be tested with different distro.<br>
+[X] python3 crerate_pattern_ansible.py script have to be tested with different distro and improved to match more than one package at time. For now it can process only one package for Ubuntu and RHEL based linux distros<br>
+...<br>
 TBC
